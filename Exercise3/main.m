@@ -11,7 +11,18 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+       // NSLog(@"Hello, World!");
+        
+        int n;
+        double factorial=1;
+        NSLog(@"Enter your number:");
+        scanf("%i",&n);
+        for(int i=1;i<=n;++i)
+        
+            factorial*=i   ;
+            NSLog(@"The factorial %i: %g",n,factorial);
+        
+        
     }
     return 0;
 }
